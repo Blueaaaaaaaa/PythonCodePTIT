@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ebb347b-4aed-461e-90c2-1d4eb0ec53bc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PythonCodePTIT.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonCodePTIT.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/Interator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/OOP/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements-ptit.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,6 +150,7 @@
       <workItem from="1704096002746" duration="36000" />
       <workItem from="1704341241305" duration="1204000" />
       <workItem from="1704595182948" duration="1284000" />
+      <workItem from="1704603116261" duration="343000" />
     </task>
     <servers />
   </component>
