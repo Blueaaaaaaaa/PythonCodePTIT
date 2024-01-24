@@ -1,15 +1,5 @@
-from math import *
-class Point:
-    def __init__(self, x, y):
-        self.x=x
-        self.y=y
-    def distance(self,p1,p2):
-        return sqrt((self.x-p1)**2+(self.y-p2)**2)
-if __name__ == '__main__':
-    t = int(input())
-    while t > 0:
-        arr = input().split()
-        p1 = Point(Decimal(arr[0]), Decimal(arr[1]))
-        p2 = Point(Decimal(arr[2]), Decimal(arr[3]))
-        print(p1.distance(p2))
-        t -= 1
+for test in range(int(input())):
+    arr=map(list(int,input().split()))
+    for i in range(1,len(arr)):
+        if (arr[i]+arr[i-1])%2==0:
+            del arr[i-1]:

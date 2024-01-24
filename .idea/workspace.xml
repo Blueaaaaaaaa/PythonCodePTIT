@@ -5,13 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ebb347b-4aed-461e-90c2-1d4eb0ec53bc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/requirements-ptit.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coding/code2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coding/code3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Coding/code4.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding/Code Test 2.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodePTIT/LỚP PHÂN SỐ - 2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Coding/code1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Coding/code1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example/BuiltinFunction.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Example/BuiltinFunction.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example/Class.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Example/Class.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,13 +52,14 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;P:/CodePTIT/PythonCodePTIT&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;P:/4CodePTIT/PythonCodePTIT&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -150,7 +165,22 @@
       <workItem from="1704096002746" duration="36000" />
       <workItem from="1704341241305" duration="1204000" />
       <workItem from="1704595182948" duration="1284000" />
-      <workItem from="1704603116261" duration="343000" />
+      <workItem from="1704603116261" duration="982000" />
+      <workItem from="1704604115669" duration="6942000" />
+      <workItem from="1704632769387" duration="1214000" />
+      <workItem from="1705200949792" duration="3327000" />
+      <workItem from="1705209544199" duration="134000" />
+      <workItem from="1705323665686" duration="637000" />
+      <workItem from="1705449986358" duration="508000" />
+      <workItem from="1705461613123" duration="1544000" />
+      <workItem from="1705933085936" duration="2611000" />
+      <workItem from="1705984553490" duration="2317000" />
+      <workItem from="1705989015325" duration="4631000" />
+      <workItem from="1706001965051" duration="1293000" />
+      <workItem from="1706004273873" duration="2186000" />
+      <workItem from="1706054838880" duration="7157000" />
+      <workItem from="1706102821341" duration="37000" />
+      <workItem from="1706109164120" duration="45000" />
     </task>
     <servers />
   </component>
