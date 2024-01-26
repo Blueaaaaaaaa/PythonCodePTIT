@@ -1,14 +1,17 @@
-import math
+def suma(n):
+    sum=0
+    while n:
+        sum+=n%10
+        sum//=10
+    return sum
+def ins(n):
+    arr=[int(i) for i in str(n)]
+    for i in range(len(arr)-1):
+        if abs(arr[i]-arr[i+1])!=2:
+            return False
+    return True
 for test in range(int(input())):
     n=int(input())
-    print(1, end=' ')
-    for i in range(2,n//2+1):
-        if n%i==0:
-            cnt=0
-            while n%i==0:
-                n//=i
-                cnt+=1
-            print("* " + str(i) + "^" + str(cnt), end=" ")
-    if n>1:
-        print("* " + str(n) + "^1", end=" ")
-    print()
+    if ins(n)==True and suma(n)%10==0:
+        print("YES")
+    else: print("NO")
