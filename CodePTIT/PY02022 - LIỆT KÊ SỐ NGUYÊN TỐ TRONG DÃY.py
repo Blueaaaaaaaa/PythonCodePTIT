@@ -19,4 +19,4 @@ if __name__ == "__main__":
       else:
         dict[x] = 1
   for val, fre in dict.items():
-    print(val, fre)
+    print(val, fre)hhhhhhh
