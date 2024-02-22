@@ -1,2 +1,2 @@
-a = int(input(), 2)
-print(oct(a)[2::])
+arr = int(input(), 2)
+print(oct(arr)[2::])
