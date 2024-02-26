@@ -1,27 +1,16 @@
-# Lazygarde
+import re
 
-import math
+text = str()
+while True:
+    try:
+        line = input().lower()
+        text += line + " "
+    except EOFError:
+        break
 
-b = [0] * 10001
-
-
-def era():
-    b[0] = b[1] = 1
-    for i in range(2, int(math.sqrt(10000)) + 1):
-        if b[i] == 0:
-            for j in range(i * i, 10001, i):
-                if j not in
-                b[j] = 1
-
-
-era()
-a = [0]
-for i in range(10001):
-    if b[i] == 0: a = a + [i]
-
-n, k = [int(x) for x in input().split()]
-p = 0
-for i in range(n + 1):
-    k += a[p]
-    print(k, end=" ")
-    p += 1
+text = re.split("[.!?]\s*", text) # tach theo cau
+text.remove('')
+for i in text:
+    i = (i[0].upper() + i[1:]).split() # format
+    i = ' '.join(i)
+    print(i)

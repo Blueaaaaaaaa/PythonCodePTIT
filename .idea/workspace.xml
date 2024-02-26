@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ebb347b-4aed-461e-90c2-1d4eb0ec53bc" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/CodePTIT/PY02022 - LIỆT KÊ SỐ NGUYÊN TỐ TRONG DÃY.py" beforeDir="false" afterPath="$PROJECT_DIR$/CodePTIT/PY02022 - LIỆT KÊ SỐ NGUYÊN TỐ TRONG DÃY.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coding/code1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Coding/code1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Coding/code2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Coding/code2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;P:/1Projects/2024AutoGen&quot;,
+    &quot;last_opened_file_path&quot;: &quot;P:/4CodePTIT/Python&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -217,6 +217,24 @@
       <workItem from="1707920020953" duration="925000" />
       <workItem from="1707929078105" duration="4426000" />
       <workItem from="1707990130041" duration="8000" />
+      <workItem from="1708017952394" duration="398000" />
+      <workItem from="1708071025316" duration="2844000" />
+      <workItem from="1708075861758" duration="2000" />
+      <workItem from="1708166710991" duration="6768000" />
+      <workItem from="1708261520430" duration="3676000" />
+      <workItem from="1708420183139" duration="214000" />
+      <workItem from="1708441708842" duration="4710000" />
+      <workItem from="1708478560109" duration="1856000" />
+      <workItem from="1708521558133" duration="3166000" />
+      <workItem from="1708570978458" duration="3749000" />
+      <workItem from="1708595417405" duration="5000" />
+      <workItem from="1708595832829" duration="499000" />
+      <workItem from="1708611065938" duration="3823000" />
+      <workItem from="1708679857174" duration="653000" />
+      <workItem from="1708831509308" duration="7000" />
+      <workItem from="1708928371320" duration="379000" />
+      <workItem from="1708958430561" duration="201000" />
+      <workItem from="1708958641907" duration="42000" />
     </task>
     <servers />
   </component>
