@@ -1,10 +1,8 @@
-str="0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-def trans(n,m):
-    s=""
-    while n:
-        s+=str[n%m]
-        n//=m
-    return s[::-1]
-for test in range(int(input())):
-    n,m=map(int,input().split())
-    print(trans(n,m))
+while True :
+    n = int(input())
+    if n == 0 : break
+    a = [0] * n
+    for i in range(n) :
+        a[i] = int(input())
+    if(min(a)==max(a)) : print("BANG NHAU")
+    else : print(min(a), max(a))
