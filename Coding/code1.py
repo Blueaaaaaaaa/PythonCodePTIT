@@ -1,23 +1,14 @@
-tmp=[0]*1001
-primes=[]
-def sieve():
-    for i in range(2,1001):
-        if tmp[i]==0:
-            primes.append(i)
-        for j in range(i*i,1001,i):
-            tmp[j]=1
-sieve()
-n=int(input())
-a=[int(x) for x in input().split()]
-res=[]
+n,m=map(int,input().split())
+a=[int(i) for i in input().split()]
+dict,maxn,ans,res={},0,0,0
 for i in a:
-    if i in primes:
-        res.append(i)
-res=sorted(res)
-temp=0
-for i in a:
-    if i not in primes:
-        print(i,end=" ")
-    else:
-        print(res[temp],end=" ")
-        temp+=1
+    if i not in dict:
+        dict[i]=1
+    else: dict[i]+=1
+    maxn=max(maxn,dict[i])
+for i in range(1,m+1):
+    if dict[i]!=maxn and dict[i]>res:
+        res=dict[i]
+        ans=i
+print(ans if ans else "NONE")
+        
