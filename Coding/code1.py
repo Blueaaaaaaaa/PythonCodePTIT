@@ -1,14 +1,25 @@
-n,m=map(int,input().split())
-a=[int(i) for i in input().split()]
-dict,maxn,ans,res={},0,0,0
-for i in a:
-    if i not in dict:
-        dict[i]=1
-    else: dict[i]+=1
-    maxn=max(maxn,dict[i])
-for i in range(1,m+1):
-    if dict[i]!=maxn and dict[i]>res:
-        res=dict[i]
-        ans=i
-print(ans if ans else "NONE")
-        
+tmp=[0]*1001
+primes=[]
+def sieve():
+    for i in range(2,1001):
+        if tmp[i]==0:
+            primes.append(i)
+        for j in range(i*i,1001,i):
+            tmp[j]=1
+sieve()
+n=int(input())
+arr=[int(i) for i in input().split()]
+a=[]
+myset=set()
+for i in arr:
+    if i not in myset:
+        a.append(i)
+        myset.add(i)
+ans=False
+for i in range(0,n):
+    if sum(a[0:i+1]) in primes and sum(a[i+1:]) in primes:
+        print(i)
+        ans=True
+        break
+if ans==False: print("NOT FOUND")
+                                                                                                                                                                                              
