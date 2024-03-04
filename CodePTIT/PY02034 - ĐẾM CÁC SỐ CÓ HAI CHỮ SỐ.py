@@ -1,4 +1,5 @@
 ip=input()
+k=int(input())
 a,dict=[],{}
 length=(len(ip)//2)*2
 for i in range(0,length,2):
@@ -8,5 +9,9 @@ for i in a:
         dict[i]=1
     else:
         dict[i]+=1
-for i in dict:
-    print(i,dict[i])
+ans=False
+for i in sorted(dict):
+    if dict[i]>=k:
+        print(i,dict[i])
+        ans=True
+if ans==False: print("NOT FOUND")        
