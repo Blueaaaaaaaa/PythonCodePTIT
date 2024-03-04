@@ -1,18 +1,17 @@
-a = [i.lower() for i in input().split()]
-b = [i.lower() for i in input().split()]
-m1, m2, m3 = {}, {}, {}
+Cho dãy số A[] có N phần tử là các số nguyên dương không quá 1000. Sau khi loại bỏ tất cả các giá trị bị lặp lại ở trong A[] ta tạo được dãy B[] có m phần tử là các giá trị khác nhau theo đúng thứ tự xuất hiện trong dãy A[].
 
-for i in a:
-    m1[i] = 1
-    m2[i] = 1
-for i in b:
-    m1[i] = 1
-    m3[i] = 1
-    
-for i in sorted(m1):
-    print(i, end=' ')
-print()
+Hãy tìm vị trí i nhỏ nhất (tính từ 0) trong dãy B[] thỏa mãn:
 
-for i in sorted(m2):
-    if i in m3:
-        print(i, end=' ')
+Tổng các phần tử từ B[0] đến B[i] là một số nguyên tố
+Tổng các phần tử từ B[i+1] đến B[m-1] cũng là một số nguyên tố.
+Input
+
+Dòng đầu ghi số N (1 < N < 500).
+
+Dòng tiếp theo ghi N số của dãy A[]
+
+Output
+
+Ghi ra vị trí i đầu tiên tìm được.
+
+Nếu không có vị trí thỏa mãn thì ghi ra dòng chữ NOT FOUND
