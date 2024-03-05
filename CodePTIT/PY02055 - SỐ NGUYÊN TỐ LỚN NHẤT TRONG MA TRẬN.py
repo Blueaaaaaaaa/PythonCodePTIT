@@ -1,9 +1,6 @@
-from math import *
 def primes(n):
-    for i in range(2,int(sqrt(n))+1):
-        if n%i==0:
-            return False
-    return n>1
+    n=str(n)
+    return n==n[::-1]
 n,m=map(int,input().split())
 a=[[int(i) for i in input().split()] for i in range(n)]
 maxn=-1
