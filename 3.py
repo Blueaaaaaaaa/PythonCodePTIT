@@ -1,15 +1,33 @@
-Cho một dãy ký tự số không quá 1000 chữ số và không có chữ số 0.
+Xâu ký tự S được tạo ra bằng cách bổ sung dần các ký tự chữ cái Tiếng Anh in hoa như sau.
 
-Người ta lần lượt lấy ra mỗi lần 2 chữ số tính từ trái sang phải. Nếu bước cuối cùng không đủ hai chữ số thì bỏ qua chữ số đó. 
+Bước 1: Chỉ có chữ cái A
+Bước 2: Thêm chữ cái B vào giữa 2 chữ A => S = "ABA"
+Bước 3: Thêm chữ cái C vào giữa 2 xâu đã có ở bước 2: S = "ABACABA"
+Cứ như vậy cho đến bước thứ N (0 < N < 26)
 
-Kết quả sẽ được một dãy số nguyên dương A[] chỉ bao gồm các số có hai chữ số.
+Hãy xác định ký tự thứ K trong bước biến đổi thứ N là chữ cái gì?
 
-Hãy liệt kê các số khác nhau xuất hiện trong A[] theo thứ tự tăng dần.
+Input:
 
-Input
+Dòng đầu tiên là số lượng bộ test T (T ≤ 20).
+Mỗi test gồm số nguyên dương N và K (1 ≤ N ≤ 25, 1 ≤ K ≤ 2N - 1).
+Output: 
 
-Chỉ có một dòng ghi dãy ký tự số (độ dài không quá 1000). Dữ liệu vào đảm bảo không có chữ số 0.
+Với mỗi test, in ra đáp án trên một dòng.
+Ví dụ:
+
+Input:
 
 Output
 
-Ghi ra lần lượt các số khác nhau xuất hiện trong dãy A[] theo thứ tự tăng dần, mỗi số viết cách nhau một khoảng trống.
+2
+
+3 2
+
+4 8
+
+ 
+
+B
+
+D
