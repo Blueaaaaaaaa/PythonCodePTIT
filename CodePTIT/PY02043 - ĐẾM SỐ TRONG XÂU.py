@@ -1,13 +1,11 @@
-for test in range(int(input())):
-    n,m=input(),input()
-    count=0
-    N,M=len(n),len(m)
-    #print(n,m)
-    for i in range(N-M+1):
-        if n[i:i+M]==m:
-            #print(n[:i])
-            #print(n[:i+1]+n[i+3:])
-            n=n[:i]+n[i+3:]
-            #print(m)
-            count+=1
-    print(count)
+n=int(input())
+if n<10: print(n)
+else:
+    while n>=10:
+        front=len(str(n))/=2
+        #back=len(n)-front
+        n=str(n)
+        m=int(n[:front+1]+n[front+1:])
+        print(m)
+        m=str(m)
+    
