@@ -1,33 +1,26 @@
-import math
-class Point:
-    def __init__(self,x,y):
-        self.x=x
-        self.y=y
-    def doDaiCanh(self,o):
-        return math.sqrt((self.x-o.x)**2+(self.y-o.y)**2)
-class Triangle:
+class TransposeMatrix:
+    def __init__(self, matrix, n, m):
+        self.matrix = matrix
+        self.n = n
+        self.m = m
+    
+    def transpose(self):
+        _new = [[0] * self.n for _ in range(self.m)]
+        for i in range(self.n):
+            for j in range(self.m):
+                _new[j][i] = self.matrix[i][j]
+        return _new
 
-    def __init__(self,a,b,c):
-        self.a=a
-        self.b=b
-        self.c=c
-    def Perimeter(self):
-        d1=self.a.doDaiCanh(self.b)
-        d2=self.a.doDaiCanh(self.c)
-        d3=self.b.doDaiCanh(self.c)
-        if d1+d2>d3 and d1+d3>d2 and d2+d3>d1:
-            return '{:.3f}'.format(d1+d2+d3)
-        else:return 'INVALID'
-a = []
-t = int(input())
-for x in range(t):
-    a += [float(i) for i in input().split()]
-i = 0
-for index in range(t):
-    p1=Point(a[i],a[i+1])
-    p2=Point(a[i+2],a[i+3])
-    p3=Point(a[i+4],a[i+5])
+def main():
+    num_tests = int(input().strip())
+    for _ in range(num_tests):
+        n, m = map(int, input().strip().split())
+        _matrix = []
+        for i in range(n):
+            _matrix.append(list(map(int, input().strip().split())))
+        result = TransposeMatrix(_matrix, n, m).transpose()
+        for row in result:
+            print(" ".join(map(str, row)))
 
-    triagle = Triangle(p1,p2,p3)
-    print(triagle.Perimeter())
-    i += 6
+if __name__ == "__main__":
+    main()
