@@ -1,0 +1,5 @@
+1.Đọc file flights.csv và in ra số dòng, số cột của file
+
+2.File json với định dạng đã cho. In ra giá trị của max và mean, cách nhau bởi dấu trắng
+
+3.in ra số dòng và số cột của file json filght
