@@ -14,6 +14,51 @@
             "year": "1949",
             "month": "March", 
             "passengers": "132"
+        },
+        {
+            "year": "1949",
+            "month": "April", 
+            "passengers": "102"
+        },
+        {
+            "year": "1945",
+            "month": "May", 
+            "passengers": "129"
+        },
+        {
+            "year": "1949",
+            "month": "June", 
+            "passengers": "144"
+        },
+        {
+            "year": "1949",
+            "month": "July", 
+            "passengers": "128"
+        },
+        {
+            "year": "1945",
+            "month": "August", 
+            "passengers": "138"
+        },
+        {
+            "year": "1945",
+            "month": "September", 
+            "passengers": "132"
+        },
+        {
+            "year": "1949",
+            "month": "October", 
+            "passengers": "126"
+        },
+        {
+            "year": "1949",
+            "month": "November", 
+            "passengers": "136"
+        },
+        {
+            "year": "1949",
+            "month": "December", 
+            "passengers": "144"
         }
     ]
 }
